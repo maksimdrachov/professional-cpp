@@ -35,7 +35,7 @@ namespace Records {
 
 	void Employee::display() const
 	{
-		cout << format("Employee: {}, {}", getLastName(), getFirstName()) << endl;
+		cout << std::format("Employee: {}, {}", getLastName(), getFirstName()) << endl;
 		cout << "-------------------------" << endl;
 		cout << (isHired() ? "Current Employee" : "Former Employee") << endl;
 		cout << format("Employee Number: {}", getEmployeeNumber()) << endl;
