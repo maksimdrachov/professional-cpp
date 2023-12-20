@@ -13,7 +13,6 @@ endif()
 
 add_executable(main
     main.cpp
-    employee.cpp
     )
 
 target_compile_options(main PRIVATE -Wall -Wextra -std=c++20)
