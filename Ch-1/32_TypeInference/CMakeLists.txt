@@ -12,7 +12,7 @@ if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS "13")
 endif()
 
 add_executable(main
-    01_TypeInterference.cpp
+    01_TypeInference.cpp
     # 02_copy_list_vs_direct_list.cpp
     )
 
