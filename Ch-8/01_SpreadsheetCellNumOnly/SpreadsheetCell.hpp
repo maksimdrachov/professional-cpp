@@ -10,7 +10,7 @@ private:
 	double m_value{ 0 };
 };
 
-//export class SpreadsheetCell
+//class SpreadsheetCell
 //{
 //public:
 //	void setValue(double value) { m_value = value; }

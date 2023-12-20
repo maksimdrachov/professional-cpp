@@ -1,5 +1,5 @@
-import <string>;
-import <iostream>;
+#include <string>
+#include <iostream>
 import <compare>;
 
 using namespace std;

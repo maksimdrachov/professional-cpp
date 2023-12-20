@@ -1,6 +1,6 @@
-import <iostream>;
-import <string>;
-import <string_view>;
+#include <iostream>
+#include <string>
+#include <string_view>
 import <format>;
 
 using namespace std;
@@ -30,7 +30,7 @@ public:
 			m_outputType = OutputType::KeyAndValue;
 			return iter;
 		}
-		
+
 		switch (*iter) {
 			case 'a':  // {:a} format specifier
 				m_outputType = OutputType::KeyOnly;

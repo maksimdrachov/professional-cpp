@@ -1,8 +1,8 @@
-import <iostream>;
+#include <iostream>
 import <stdexcept>;
 import <exception>;
 import <format>;
-import <string>;
+#include <string>
 import database;
 import employee;
 
@@ -72,9 +72,9 @@ int displayMenu()
 	cout << "0) Quit" << endl;
 	cout << endl;
 	cout << "---> ";
-	
+
 	cin >> selection;
-	
+
 	return selection;
 }
 
@@ -88,7 +88,7 @@ void doHire(Database& db)
 
 	cout << "Last name? ";
 	cin >> lastName;
-	
+
 	auto& employee{ db.addEmployee(firstName, lastName) };
 	cout << format("Hired employee {} {} with employee number {}.",
 		firstName, lastName, employee.getEmployeeNumber()) << endl;

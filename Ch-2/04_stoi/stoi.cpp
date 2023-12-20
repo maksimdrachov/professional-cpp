@@ -1,6 +1,6 @@
 #include <cstddef>
-import <iostream>;
-import <string>;
+#include <iostream>
+#include <string>
 import <format>;
 
 using namespace std;
