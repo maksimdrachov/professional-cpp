@@ -33,8 +33,7 @@ public:
 		double m_value{ 0 };
 	};
 
-	Spreadsheet(size_t width, size_t height,
-		const SpreadsheetApplication& theApp);
+	Spreadsheet(const SpreadsheetApplication& theApp, size_t width = 0, size_t height = 0);
 	Spreadsheet(const Spreadsheet& src);
 	~Spreadsheet();
 	Spreadsheet& operator=(const Spreadsheet& rhs);

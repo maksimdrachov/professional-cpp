@@ -8,8 +8,7 @@
 
 using namespace std;
 
-Spreadsheet::Spreadsheet(size_t width, size_t height,
-	const SpreadsheetApplication& theApp)
+Spreadsheet::Spreadsheet(const SpreadsheetApplication& theApp, size_t width, size_t height)
 	: m_id{ ms_counter++ }
 	, m_width{ min(width, MaxWidth) }
 	, m_height{ min(height, MaxHeight) }
