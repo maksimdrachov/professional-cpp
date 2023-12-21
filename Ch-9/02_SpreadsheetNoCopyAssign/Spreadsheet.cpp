@@ -1,4 +1,4 @@
-module spreadsheet;
+#include "Spreadsheet.hpp"
 
 #include <stdexcept>
 #include <utility>
